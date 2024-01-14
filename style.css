@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+/* ----------------------------Premiere partie ----------------------------------------------*/
+
+.part1 {
+    width: 85%;
+    margin: 20px auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.part1 nav ul {
+    list-style: none;
+}
+
+.part1 nav ul li {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.part1 nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+.part1 nav ul li a:hover {
+    color: forestgreen;
+}
+
+nav + ul {
+    list-style: none;
+    width: 170px;
+}
+
+nav + ul li {
+    display: inline-block;
+    padding: 5px 0;
+    margin: 0 3px;
+}
+
+.other span {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: forestgreen;
+    color: white;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.price {
+    color: #b5b3b3;
+    font-size: 12px;
+}
+
+.price span {
+    border-radius: inherit;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+}
+
+aside {
+    margin-right: 10px;
+}
+
+.principal aside p {
+    background-color: forestgreen;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.principal aside p i {
+    margin: 0 10px;
+}
+
+aside ul {
+    list-style: none;
+    padding-left: 10px;
+    border: 1px solid lightgrey;
+}
+
+aside ul li {
+    padding: 5px 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+.principal main {
+    flex-basis: 80%;
+}
+
+.per-banner  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.per-banner form {
+    border: 1px solid lightgrey;
+    display: inline-block;
+}
+
+.per-banner form label {
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 10px;
+    border-right: 1px solid lightgrey;
+}
+
+.per-banner form input {
+    border: none;
+    display: inline-block;
+    height: 40px;
+}
+
+.per-banner form button {
+    border: none;
+    background-color: forestgreen;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.per-banner p {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.call a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    color: forestgreen;
+    border-radius: 50%;
+    padding-top: 10px;
+    font-size: 12px;
+    position: relative;
+    bottom: 8px;
+    right: 3px;
+}
+
+.per-banner p span {
+    font-size: 10px;
+    color: gray;
+    margin-left: 3px;
+}
+
+main header {
+    background-image: url("img/hero/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 90%;
+    width: 100%;
+}
+
+main header section {
+    float: left;
+    margin-top: 5%;
+    margin-left: 50px;
+}
+
+main header section .first {
+    color: forestgreen;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+main header section h1 {
+    font-size: 3rem;
+    margin: 5px 0;
+}
+
+main header section .second {
+    font-size: 15px;
+}
+
+main header section a {
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+    background: forestgreen;
+    color: white;
+    padding: 10px;
+    width: 30%;
+}
+
+/* -------------------------------------seconde partie ------------------------------------------------*/
+.part2 {
+    margin: 60px 0;
+
+}
+.categorie {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fresh {
+    position: relative;
+}
+
+.categorie a img {
+    display: inline-block;
+    height: 170px;
+}
+
+.categorie span {
+    display: inline-block;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    left: calc(50% - 55px);
+    bottom: 20px;
+    width: 110px;
+    text-align: center;
+}
+
+.prev {
+    position: absolute;
+    top: calc(50% - 28.5px);
+    left: 30px;
+    border: 1px solid lightgrey;
+    padding: 15px 5px;
+    color: gray;
+}
+
+.next {
+    position: absolute;
+    top: calc(50% - 28.5px);
+    right: 30px;
+    border: 1px solid lightgrey;
+    padding: 15px 5px;
+    color: gray;
+}
+
+/*------------------------------------- part3 -----------------------------------------------*/
+.part3 {
+    text-align: center;
+}
+
+.feature h1 {
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.feature h1 + span {
+    display: inline-block;
+    height: 3px;
+    width: 100px;
+    border-radius: 3px;
+    background-color: forestgreen;
+}
+
+.part3 ul {
+    list-style: none;
+}
+
+.part3 ul li {
+    display: inline-block;
+    margin: 30px 15px;
+}
+
+.part3 li a {
+    text-decoration: none;
+    color: black;
+}
+
+.part3 li a:hover {
+    border-bottom: 1px solid forestgreen;
+}
+
+.grid-contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 90%;
+    justify-content: space-between;
+    gap: 50px 20px;
+    margin: 0 auto;
+}
+
+.grid-contain div img {
+    width: 60%;
+}
+
+.grid-contain span {
+    font-weight: bold;
+}
+
+.ban1 {
+    grid-column: 1/3;
+    text-align: right;
+}
+
+.ban1 img {
+    width: 90%;
+    height: 90%;
+}
+
+.ban2 img {
+    width: 90%;
+    height: 90%;
+}
+
+.ban2 {
+    grid-column: 3/5;
+    text-align: left;
+}
+
+footer {
+    background-color: rgba(185, 199, 209, 0.2);
+    min-height: 30vh;
+    font-size: 12px;
+}
+
+
+
+.foot {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.premis {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 10px 0;
+}
+
+footer ul li {
+    margin-bottom: 8px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li a:hover {
+    color: forestgreen;
+}
+
+footer li form {
+    position: relative;
+}
+
+footer li form > * {
+    display: inline-block;
+}
+
+footer li form input {
+    border: none;
+    width: 100px;
+    height: 100%;
+    padding: 5px;
+}
+
+footer li form button {
+    border: none;
+    background-color: forestgreen;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    position: absolute;
+}
+
+#icon > * {
+    display: inline-block;
+    margin: 10px;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 7px;
+}
